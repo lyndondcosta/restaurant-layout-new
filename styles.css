@@ -1,0 +1,23 @@
+#restaurantLayout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around; /* Adjust based on your layout */
+}
+
+.table {
+    width: 100px;
+    height: 100px;
+    background-color: green; /* Set default color to green */
+    border: 2px solid #999;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.sectionHeader {
+    width: 100%;
+    margin-bottom: 10px; /* Adjust spacing between sections */
+    font-weight: bold;
+    font-size: 18px;
+}
